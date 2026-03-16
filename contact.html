@@ -1,0 +1,145 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CivicBridge Kenya | Contact</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="container">
+        <div class="navwrap">
+          <a class="brand" href="index.html">
+            <img src="images/logo.png" alt="." class="mark" />
+            <span>CivicBridge Kenya</span>
+          </a>
+          <nav class="links" aria-label="Primary navigation">
+            <a href="index.html">Home</a>
+            <a href="passport.html">IDs & Passport</a>
+            <a href="healthcare.html">Healthcare</a>
+            <a href="kra.html">KRA & Tax</a>
+            <a href="helb.html">HELB</a>
+            <a href="jobs-cv.html">Jobs & CV</a>
+            <a href="business-starter.html">Business</a>
+            <a href="contact.html"><b class="current">Contact</b></a>
+          </nav>
+          <label class="hamb" for="navToggle" aria-label="Open menu"
+            ><span></span
+          ></label>
+        </div>
+        <input type="checkbox" id="navToggle" />
+        <div class="mobileMenu">
+          <a href="index.html">Home</a><a href="passport.html">IDs & Passport</a
+          ><a href="healthcare.html">Healthcare</a> <a href="kra.html">KRA & Tax</a
+          ><a href="helb.html">HELB</a> <a href="jobs-cv.html">Jobs & CV</a
+          ><a href="business-starter.html">Business Starter Pack</a
+          ><a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <section class="panel">
+          <h1>Contact</h1>
+          <p class="subtitle">
+            Ask a question,leave feedback, or report missing info.
+          </p>
+        </section>
+
+        <div class="grid">
+          <section class="panel">
+            <h2 style="margin: 0 0 10px">Message form</h2>
+            <form>
+              <div style="display: grid; gap: 12px">
+                <div>
+                  <label for="name">Name</label>
+                  <input id="name" placeholder="Your name" required/>
+                </div>
+                <div>
+                  <label for="topic">Topic</label>
+                  <select id="topic">
+                    <option>IDs & Passport</option>
+                    <option>Healthcare</option>
+                    <option>KRA</option>
+                    <option>HELB</option>
+                    <option>Jobs & CV</option>
+                    <option>Business</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="msg">Message</label>
+                  <textarea
+                    id="msg"
+                    placeholder="Write your message..."
+                    required
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="btn">Send message</button>
+              </div>
+            </form>
+          </section>
+
+          <aside class="panel">
+            <h2 style="margin: 0 0 10px">Emergency numbers</h2>
+
+            <ul class="list">
+              <li><b>Police / Emergency</b><span>911 / 112 </span></li>
+              <li>
+                <b>Ambulance</b
+                ><span>E-Plus (1199), St. John Ambulance (0721225285)</span>
+              </li>
+              <li>
+                <b>Fire</b
+                ><span>Nairobi (0202222181/182/183), Mombasa (0412225555)</span>
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footGrid">
+          <div>
+            <a class="brand" href="index.html">
+              <img src="images/logo.png" alt="." class="mark" />
+              <span>CivicBridge Kenya</span>
+            </a>
+            <p class="footerTag">
+              Clear, practical civic guidance with a calmer, more confident
+              reading experience.
+            </p>
+          </div>
+          <div>
+            <h4>Guides</h4>
+            <a href="passport.html">IDs & Passport</a>
+            <a href="healthcare.html">Healthcare</a>
+            <a href="kra.html">KRA & Tax</a>
+            <a href="helb.html">HELB</a>
+          </div>
+          <div>
+            <h4>More</h4>
+            <a href="jobs-cv.html">Jobs & CV</a>
+            <a href="business-starter.html">Business Starter Pack</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <div>
+            <h4>Explore</h4>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Emergency Numbers</a>
+            <a href="contact.html">Send Feedback</a>
+          </div>
+        </div>
+        <div class="copy">
+          © 2026 CivicBridge Kenya. Bridging citizens to essential services.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
