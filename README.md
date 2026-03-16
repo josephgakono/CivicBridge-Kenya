@@ -87,8 +87,8 @@ The style aims to feel official and trustworthy while remaining modern and easy 
 
 ## Screenshots
 
-![screenshot for home page.](<images/homepage1(1).png>)
-![screenshot for home page.](<images/homepage1(2).png>)
-![screenshot for home page.](<images/homepage1(3).png>)
-![screenshot for home page.](<images/homepage1(4).png>)
+![screenshot for home page.](<images/homepage1 (1).png>)
+![screenshot for home page.](<images/homepage1 (2).png>)
+![screenshot for home page.](<images/footersection.png>)
+![screenshot for home page.](<images/faqsection.png>)
 
