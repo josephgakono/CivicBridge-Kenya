@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CivicBridge Kenya | Home</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body class="home">
+    <header class="nav">
+      <div class="container">
+        <div class="navwrap">
+          <a class="brand" href="index.html">
+            <img src="images/logo.png" alt="." class="mark" />
+            <span>CivicBridge Kenya</span>
+          </a>
+
+          <nav class="links" aria-label="Primary navigation">
+            <a href="index.html"><b class="current">Home</b></a>
+            <a href="passport.html">IDs & Passport</a>
+            <a href="healthcare.html">Healthcare</a>
+            <a href="kra.html">KRA & Tax</a>
+            <a href="helb.html">HELB</a>
+            <a href="jobs-cv.html">Jobs & CV</a>
+            <a href="business-starter.html">Business</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+          <label class="hamb" for="navToggle" aria-label="Open menu"
+            ><span></span
+          ></label>
+        </div>
+
+        <input type="checkbox" id="navToggle" />
+        <div class="mobileMenu">
+          <a href="index.html">Home</a>
+          <a href="passport.html">IDs & Passport</a>
+          <a href="healthcare.html">Healthcare</a>
+          <a href="kra.html">KRA & Tax</a>
+          <a href="helb.html">HELB</a>
+          <a href="jobs-cv.html">Jobs & CV</a>
+          <a href="business-starter.html">Business Starter Pack</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container hero">
+        <div class="heroGrid">
+          <section class="panel heroCard">
+            <div class="heroContent">
+              <span class="kicker"
+                ><span class="dot"></span> CivicBridge Kenya</span
+              >
+              <h1>Modern civic guidance in Kenya's flag colors.</h1>
+              <p class="tagline">
+                CivicBridge Kenya brings IDs, healthcare, taxes, student
+                finance, jobs, business basics, and scam awareness into one
+                bright, readable hub.
+              </p>
+
+              <form class="searchBox" action="index.html" method="get">
+                <div>
+                  <label for="topic">What do you need?</label>
+                  <input
+                    id="topic"
+                    name="topic"
+                    placeholder="e.g. ID replacement, KRA PIN, NHIF..."
+                  />
+                </div>
+                <div>
+                  <label for="category">Category</label>
+                  <select id="category" name="cat">
+                    <option value="all">All guides</option>
+                    <option value="id">IDs & Passport</option>
+                    <option value="health">Healthcare (NHIF/SHA)</option>
+                    <option value="tax">KRA & Tax</option>
+                    <option value="helb">HELB</option>
+                    <option value="jobs">Jobs & CV</option>
+                    <option value="business">Business</option>
+                  </select>
+                </div>
+                <button class="btn" type="submit">Search</button>
+              </form>
+            </div>
+          </section>
+
+          <aside class="panel sideCard">
+            <h2>Quick access</h2>
+            <p>
+              Practical guidance, cleaner layouts, and clear next steps for
+              everyday services in Kenya.
+            </p>
+            <div class="stats">
+              <div class="stat">
+                <b>7 guides</b>
+                <span>Core citizen services in one place.</span>
+              </div>
+              <div class="stat">
+                <b>Fast scan</b>
+                <span>Built for mobile reading and quick decisions.</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+
+      <section id="services">
+        <div class="container">
+          <div class="sectionTitle">
+            <div>
+              <h2>Essential Service Guides</h2>
+              <p>
+                Pick a guide. Each page includes requirements, step-by-step
+                process, common mistakes, and FAQs.
+              </p>
+            </div>
+          </div>
+
+          <div class="grid">
+            <article class="card">
+              <div><img src="images/id.webp" alt="id" /></div>
+              <div class="cardBody">
+                <h3>IDs & Passport</h3>
+                <p>Checklists, processes, and mistakes to avoid.</p>
+              </div>
+              <div class="cardFoot">
+                <span class="pill">Documents</span>
+                <a class="linkBtn" href="passport.html">Open -></a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div><img src="images/healthcare.jpg" alt="healthcare" /></div>
+              <div class="cardBody">
+                <h3>Healthcare (NHIF/SHA)</h3>
+                <p>Coverage basics, what to carry, and FAQs.</p>
+              </div>
+              <div class="cardFoot">
+                <span class="pill">Health</span>
+                <a class="linkBtn" href="healthcare.html">Open -></a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div><img src="images/kra.jpg" alt="kra and tax" /></div>
+              <div class="cardBody">
+                <h3>KRA & Tax Basics</h3>
+                <p>PIN, iTax basics, filing guidance, penalties.</p>
+              </div>
+              <div class="cardFoot">
+                <span class="pill">Finance</span>
+                <a class="linkBtn" href="kra.html">Open -></a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div><img src="images/helb.webp" alt="HELB" /></div>
+              <div class="cardBody">
+                <h3>HELB & Student Finance</h3>
+                <p>Applications, requirements, repayment basics.</p>
+              </div>
+              <div class="cardFoot">
+                <span class="pill">Education</span>
+                <a class="linkBtn" href="helb.html">Open -></a>
+              </div>
+            </article>
+
+            <article class="card">
+              <div><img src="images/cv.jpg" alt="Jobs & CV" /></div>
+              <div class="cardBody">
+                <h3>Jobs & CV Toolkit</h3>
+                <p>CV structure, interview checklists, scam warnings.</p>
+              </div>
+              <div class="cardFoot">
+                <span class="pill">Career</span>
+                <a class="linkBtn" href="jobs-cv.html">Open -></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="cta">
+            <div class="ctaText">
+              <h3>Need official contacts and emergency numbers?</h3>
+              <p>
+                Use the Resources page for reporting steps, hotlines, and
+                reference links.
+              </p>
+              <a class="btn" href="contact.html">Contacts</a>
+            </div>
+            <div class="ctaArt">
+              <img src="images/emergency.webp" alt="Emergency support contacts" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footGrid">
+          <div>
+            <a class="brand" href="index.html">
+              <img src="images/logo.png" alt="." class="mark" />
+              <span>CivicBridge Kenya</span>
+            </a>
+            <p class="footerTag">
+              Clear, practical civic guidance with a calmer, more confident
+              reading experience.
+            </p>
+          </div>
+
+          <div>
+            <h4>Guides</h4>
+            <a href="passport.html">IDs & Passport</a>
+            <a href="healthcare.html">Healthcare</a>
+            <a href="kra.html">KRA & Tax</a>
+            <a href="helb.html">HELB</a>
+          </div>
+
+          <div>
+            <h4>More</h4>
+            <a href="jobs-cv.html">Jobs & CV</a>
+            <a href="business-starter.html">Business Starter Pack</a>
+            <a href="contact.html">Contact</a>
+          </div>
+
+          <div>
+            <h4>Explore</h4>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Emergency Numbers</a>
+            <a href="contact.html">Send Feedback</a>
+          </div>
+        </div>
+
+        <div class="copy">
+          © 2026 CivicBridge Kenya. Bridging citizens to essential services.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
